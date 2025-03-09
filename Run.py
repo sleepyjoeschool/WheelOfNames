@@ -11,6 +11,7 @@ StudentNamesAlreadyPicked = []
 # It is not necessary to change the number of students in class as the program will automatically obtain the number of items inside it.
 NumberOfStudent = len(StudentNames)
 # Class detail text display
+# Add any details below
 ClassDetailTextDisplay = ("CS Class B, Grade 10. Currently there are" +str(NumberOfStudent) + " " + "names in the list.")
 # Variable for Random
 RandomTempVariable = 0
