@@ -13,6 +13,8 @@ NumberOfStudent = len(StudentNames)
 # Class detail text display
 # Add any details below
 ClassDetailTextDisplay = ("GCSE CS Class B, Grade 9. Currently there are" +str(NumberOfStudent) + " " + "names in the list.")
+# Open source text display
+OpenSourceDisplay = ("The code public of this program public at: https://github.com/sleepyjoeschool/WheelOfNames")
 # Variable for Random
 RandomTempVariable = 0
 # Variable for Student Name
@@ -77,8 +79,8 @@ ScreenWidthCalc = TkinterWindow.winfo_screenwidth()
 ScreenHeightCalc = TkinterWindow.winfo_screenheight()
 
 # Calculate and set Window
-ScreenWidthCalc = int(ScreenWidthCalc / 4)
-ScreenHeightCalc = int(ScreenHeightCalc / 2)
+ScreenWidthCalc = int(ScreenWidthCalc / 3)
+ScreenHeightCalc = int(ScreenHeightCalc / 3)
 TkinterWindow.geometry(f"{ScreenWidthCalc}x{ScreenHeightCalc}+{int((ScreenWidthCalc - ScreenWidthCalc) / 2)}+{int((ScreenHeightCalc - ScreenHeightCalc) / 2)}")
 
 
@@ -90,6 +92,9 @@ big_label.pack(pady=20)
 small_text2_label = tk.Label(TkinterWindow, text=ClassDetailTextDisplay, font=("Arial", 10))
 small_text2_label.pack(pady=10)
 
+# Open source
+OpenSourceDisplay_text3_label = tk.Label(TkinterWindow, text=OpenSourceDisplay, font=("Arial", 10))
+OpenSourceDisplay_text3_label.pack(pady=10)
 # Spin button
 button = tk.Button(TkinterWindow, text="Spin!", command=RandomStudentNameGen)
 button.pack(pady=20)
