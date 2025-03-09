@@ -3,7 +3,7 @@
 # 如何使用
 步骤 1 - 从 [Python.org](https://www.python.org/downloads/) 下载并安装 Python
 <br> </br>
-步骤 2 - 从 [release](https://github.com/sleepyjoeschool/WheelOfNames/releases/) 下载代码
+步骤 2 - 从 [release](https://github.com/sleepyjoeschool/WheelOfNames/releases/) 或是 or [我们的镜像源](https://opensource.jeffwebcs.com/downloads/WheelOfNames/GitHub-Relese/Run-version-1002.py) 下载代码
 <br> </br>
 步骤 3 - 按照下图编辑代码(第8和14行修改成自己的)：
 <br> </br>
