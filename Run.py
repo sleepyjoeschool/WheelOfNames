@@ -5,7 +5,7 @@ import time
 
 # DECLARE Array
 # You may remove or append any names when there is a change in student status. The datatype should be STRING (e.g. "Name").
-StudentNames = ["Name"]
+StudentNames = ["Andy", "Amy", "Ethan", "Bob", "David", "Smith", "Kim", "Zellin"] # New samples
 #The program will not selected student already being picked. This array will be empty if all student names are picked (number of item = NumberOfStudent) or the function "EmptyStudentNamesBeingPicked" being actived.
 StudentNamesAlreadyPicked = []
 # It is not necessary to change the number of students in class as the program will automatically obtain the number of items inside it.
@@ -14,7 +14,7 @@ NumberOfStudent = len(StudentNames)
 # Add any details below
 ClassDetailTextDisplay = ("GCSE CS Class B, Grade 9. Currently there are" +str(NumberOfStudent) + " " + "names in the list.")
 # Open source text display
-OpenSourceDisplay = ("The code public of this program public at: https://github.com/sleepyjoeschool/WheelOfNames")
+OpenSourceDisplay = ("Open source via GPL License at: https://github.com/sleepyjoeschool/WheelOfNames")
 # Variable for Random
 RandomTempVariable = 0
 # Variable for Student Name
