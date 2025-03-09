@@ -3,7 +3,7 @@ A Python program used to pick random names.
 # Usage
 Step 1 - Download and install Python from [Python.org](https://www.python.org/downloads/)
 <br> </br>
-Step 2 - Download the code from [release](https://github.com/sleepyjoeschool/WheelOfNames/releases/)
+Step 2 - Download the code from [release](https://github.com/sleepyjoeschool/WheelOfNames/releases/) or [the mirror](https://opensource.jeffwebcs.com/downloads/WheelOfNames/GitHub-Relese/Run-version-1002.py)
 <br> </br>
 Step 3 - Edit the code as the following image (line 8 and line 14):
 <br> </br>
