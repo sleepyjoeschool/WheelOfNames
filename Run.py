@@ -12,7 +12,7 @@ StudentNamesAlreadyPicked = []
 NumberOfStudent = len(StudentNames)
 # Class detail text display
 # Add any details below
-ClassDetailTextDisplay = ("CS Class B, Grade 10. Currently there are" +str(NumberOfStudent) + " " + "names in the list.")
+ClassDetailTextDisplay = ("GCSE CS Class B, Grade 9. Currently there are" +str(NumberOfStudent) + " " + "names in the list.")
 # Variable for Random
 RandomTempVariable = 0
 # Variable for Student Name
